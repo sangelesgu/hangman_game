@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  palabra = "AGUACATE";
+  palabra : string = "";
   palabraOculta = "";
 
   intentos = 0;
@@ -26,6 +26,11 @@ export class AppComponent {
 
   }
 
+  submitWord(){
+
+    alert('Empieza a jugar')
+
+  }
   comprobar( letra ){
 
     this.existeLetra(letra);
@@ -54,7 +59,6 @@ export class AppComponent {
       this.perdido = true;
 
     }
-
 
   }
 
