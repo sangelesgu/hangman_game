@@ -22,14 +22,14 @@ export class AppComponent {
   'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
   constructor(){
-    this.palabraOculta = '_ '.repeat(this.palabra.length)
+
 
   }
 
   submitWord(){
 
     alert('Empieza a jugar')
-
+    this.palabraOculta = '_ '.repeat(this.palabra.length)
   }
   comprobar( letra ){
 
