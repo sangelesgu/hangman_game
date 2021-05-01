@@ -1,6 +1,23 @@
-# Ahorcado
+# Hangman Game
+This is a simple Hangman game.   This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+## Get start
+
+This is simple digital guessing game for two or more players.
+
+¿How it works? 
+
+One player thinks word, name or sentence and introduces into input.  The other players tries to guess it by suggesting letters with a certain number of guesses.  To guess the word you have nine attempts.
+
+## Built with
+
+- Angular. 
+- Bootstrap. 
+- Three.js. 
+- CSS.
+
+## Development:
+
 
 ## Development server
 
@@ -21,7 +38,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
