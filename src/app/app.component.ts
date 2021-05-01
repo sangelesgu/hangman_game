@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  palabra : string = "";
+  palabra : string = '';
   palabraOculta = "";
 
   intentos = 0;
@@ -27,14 +27,15 @@ export class AppComponent {
   }
 
   submitWord(){
-
-    alert('Empieza a jugar')
+    console.log(this.palabra)
     this.palabraOculta = '_ '.repeat(this.palabra.length)
   }
-  comprobar( letra ){
 
+  comprobar( letra ){
+    console.log(letra)
     this.existeLetra(letra);
-    let palabraOcultaArr = this.palabraOculta.split(' ');
+    console.log(this.palabraOculta)
+    let palabraOcultaArr = this.palabraOculta.split('');
 
     for (let i = 0; i < this.palabra.length; i++){
       if (this.palabra[i] === letra) {
